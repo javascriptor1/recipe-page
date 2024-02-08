@@ -1,14 +1,5 @@
-@font-face {
-  font-family: "Young Serif", serif;
-  src: url("../public/assets/fonts/young-serif/YoungSerif-Regular.ttf");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Outfit", sans-serif;
-  src: url("../public/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
-  font-weight: 200 1000;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 * {
   box-sizing: border-box;

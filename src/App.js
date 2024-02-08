@@ -1,11 +1,12 @@
-import HeaderImage from "./components/headerImage/HeaderImage.jsx";
+
+import HeadingTitle from './components/heading/HeadingTitle.jsx'
 import "./App.css";
 
 function App() {
   return (
-    <div>
-      <HeaderImage />
-    </div>
+    <main>
+      <HeadingTitle/>
+    </main>
   );
 }
 
