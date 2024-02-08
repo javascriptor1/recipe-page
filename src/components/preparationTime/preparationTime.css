@@ -1,0 +1,23 @@
+section {
+  background-color: var(--Rose-White);
+  margin: 2rem 0;
+  padding: 22px;
+  padding-bottom: 12px;
+  color: var(--Dark-Raspberry);
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+ul {
+  margin-left: 26px;
+}
+
+li {
+  padding-left: 16px;
+  margin-bottom: 14px;
+}
+span {
+  color: var(--Dark-Charcoal);
+}
