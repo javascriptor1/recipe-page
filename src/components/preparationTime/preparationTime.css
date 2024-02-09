@@ -1,14 +1,14 @@
 section.preparation {
   background-color: var(--Rose-White);
   border-radius: 10px;
-  margin: 2rem 0;
+  margin: 2rem 0 1.5rem;
   padding: 22px;
   padding-bottom: 12px;
   color: var(--Dark-Raspberry);
 }
 
 .preparation h2 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   margin-bottom: 16px;
 }
 .preparation ul {

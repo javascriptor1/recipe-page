@@ -21,7 +21,11 @@
 :not(h1, h2, h3, h4, h5, h6) {
   font-family: "Outfit";
 }
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: "Young Serif", serif;
+}
 
 h3 {
-  color: var(--Wenge-Brown);
+  color: var(--Nutmeg);
+  font-size: 1.75rem;
 }

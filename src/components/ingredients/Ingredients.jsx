@@ -2,7 +2,7 @@ import "./ingredients.css";
 
 const Ingredients = () => {
   return (
-    <section>
+    <section className="ingredients">
       <h3>Ingredients</h3>
       <ul>
         <li>2-3 large eggs</li>

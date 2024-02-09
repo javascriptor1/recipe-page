@@ -1,0 +1,14 @@
+section.ingredients {
+  padding-bottom: 28px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.ingredients ul {
+  margin: 18px 0 0 20px;
+}
+.ingredients li {
+  padding-left: 17px;
+  margin-bottom: 12px;
+}
+.ingredients ::marker {
+  color: var(--Nutmeg);
+}
