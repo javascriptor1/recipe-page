@@ -2,3 +2,20 @@ img[alt="omelette"] {
   width: 100%;
   display: block;
 }
+
+@media (min-width: 1024px) {
+  #root {
+    padding: 40px 32px 32px;
+    max-width: 730px;
+    margin: 124px auto;
+    border-radius: 16px;
+    background-color: var(--White);
+  }
+  .imageDiv {
+    height: 300px;
+  }
+  img {
+    border-radius: 16px;
+    height: 100%;
+  }
+}

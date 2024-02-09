@@ -13,3 +13,9 @@ section.ingredients {
 .ingredients ::marker {
   color: var(--Nutmeg);
 }
+
+@media (min-width: 1024px) {
+  section.ingredients {
+    margin-bottom: 20px;
+  }
+}

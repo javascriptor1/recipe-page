@@ -23,3 +23,10 @@ section.preparation {
 .preparation span {
   color: var(--Dark-Charcoal);
 }
+
+@media (min-width: 1024px) {
+  section.preparation {
+    margin: 14px 0 18px;
+    padding: 22px;
+  }
+}

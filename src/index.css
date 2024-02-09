@@ -29,3 +29,9 @@ h3 {
   color: var(--Nutmeg);
   font-size: 1.75rem;
 }
+
+@media (min-width: 1024px) {
+  body {
+    background-color: var(--Eggshell);
+  }
+}

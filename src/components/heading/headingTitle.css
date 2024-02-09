@@ -11,3 +11,9 @@ main p {
   line-height: 1.5;
   color: var(--Dark-Charcoal);
 }
+
+@media (min-width: 1024px) {
+  main h1 {
+    font-size: 2.5rem;
+  }
+}
