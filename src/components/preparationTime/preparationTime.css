@@ -1,23 +1,25 @@
-section {
+section.preparation {
   background-color: var(--Rose-White);
+  border-radius: 10px;
   margin: 2rem 0;
   padding: 22px;
   padding-bottom: 12px;
   color: var(--Dark-Raspberry);
 }
 
-h2 {
+.preparation h2 {
   font-size: 1.25rem;
   margin-bottom: 16px;
 }
-ul {
+.preparation ul {
   margin-left: 26px;
 }
 
-li {
+.preparation li {
   padding-left: 16px;
   margin-bottom: 14px;
 }
-span {
+
+.preparation span {
   color: var(--Dark-Charcoal);
 }
