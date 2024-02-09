@@ -20,6 +20,6 @@ b {
 }
 
 .instructions li::marker {
-  color: var(--Dark-Raspberry);
+  color: var(--Nutmeg);
   font-weight: bold;
 }
