@@ -1,0 +1,30 @@
+.nutrition p {
+  margin-bottom: 8px;
+}
+table {
+  padding: 6px 32px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e1e1e1;
+}
+tr:last-child {
+  border-bottom: 0;
+}
+td {
+  flex: 1;
+  padding: 14px 0;
+}
+td:nth-child(even) {
+  font-weight: 700;
+  color: var(--Nutmeg);
+  margin-left: -12px;
+}
+td:nth-child(odd) {
+  padding-left: 32px;
+}
