@@ -33,7 +33,7 @@ const Nutrition = () => {
 const NutritionItem = ({ tableContent }) => {
   return (
     <tr>
-      <td key={tableContent.nutrition}>{tableContent.nutrition}</td>
+      <th key={tableContent.nutrition}>{tableContent.nutrition}</th>
       <td key={tableContent.value}>{tableContent.value}</td>
     </tr>
   );
