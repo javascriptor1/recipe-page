@@ -12,8 +12,14 @@ section.instructions {
   padding-left: 17px;
   margin-bottom: 8px;
   line-height: 1.5;
+  color: var(--Dark-Charcoal);
 }
 
-b{
+b {
   color: var(--Dark-Charcoal);
+}
+
+.instructions li::marker {
+  color: var(--Dark-Raspberry);
+  font-weight: bold;
 }

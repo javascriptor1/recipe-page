@@ -9,6 +9,7 @@ section.ingredients {
 .ingredients li {
   padding-left: 17px;
   margin-bottom: 12px;
+  color: var(--Dark-Charcoal);
 }
 .ingredients ::marker {
   color: var(--Nutmeg);
