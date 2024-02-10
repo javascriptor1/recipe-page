@@ -9,22 +9,25 @@ table {
 
 tr {
   display: flex;
-  align-items: center;
-  justify-content: center;
   border-bottom: 1px solid #e1e1e1;
 }
 tr:last-child {
   border-bottom: 0;
 }
+th,
 td {
   flex: 1;
   padding: 14px 0;
 }
-td:nth-child(even) {
+
+td {
   font-weight: 700;
   color: var(--Nutmeg);
   margin-left: -12px;
 }
-td:nth-child(odd) {
+
+th {
+  text-align: justify;
   padding-left: 32px;
+  font-weight: 400;
 }

@@ -19,8 +19,9 @@ const Nutrition = () => {
           {nutritionTable.map((tableContent) => {
             return (
               <NutritionItem
-                tableContent={tableContent}
+                nutritionObj={tableContent}
                 key={tableContent.id}
+                
               />
             );
           })}
@@ -30,11 +31,11 @@ const Nutrition = () => {
   );
 };
 
-const NutritionItem = ({ tableContent }) => {
+const NutritionItem = ({ nutritionObj }) => {
   return (
     <tr>
-      <td key={tableContent.nutrition}>{tableContent.nutrition}</td>
-      <td key={tableContent.value}>{tableContent.value}</td>
+      <th key={nutritionObj.nutrition} scope="row">{nutritionObj.nutrition}</th>
+      <td key={nutritionObj.value}>{nutritionObj.value}</td>
     </tr>
   );
 };
