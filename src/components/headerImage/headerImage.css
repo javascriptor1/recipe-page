@@ -3,7 +3,7 @@ img[alt="omelette"] {
   display: block;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   #root {
     padding: 40px 38px 32px;
     max-width: 730px;
